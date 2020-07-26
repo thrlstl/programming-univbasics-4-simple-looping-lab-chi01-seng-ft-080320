@@ -24,3 +24,18 @@ def loop_message_n_times(message, number)
    count += 1
  end
 end
+
+def output_array(array)
+  count = 0 
+  array = ["Be yourself;", "everyone else is already taken", "- Oscar Wilde"]
+  while count < array.length do 
+   puts array[count]
+   count += 1
+  end
+    array = ["5", "4", "3", "2", "1"]
+    count = 0
+      while count <= array.length do
+        puts array[count]
+        count += 1
+      end
+end
